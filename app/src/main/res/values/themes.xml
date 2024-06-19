@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Add any additional styles here if needed -->
+    <!-- Example of custom widget style -->
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+    </style>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryVariant">#000000</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorSecondaryVariant">#CCCCCC</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="background">#FFFFFF</color>
+    <color name="textColor">#000000</color>
+    <color name="hintColor">#888888</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#757575</color>
+    <color name="backgroundLight">#F5F5F5</color>
+</resources>

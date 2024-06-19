@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "159101563550",
+    "project_id": "hsuprjoect",
+    "storage_bucket": "hsuprjoect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159101563550:android:a33ad1d140b413a7a0c18f",
+        "android_client_info": {
+          "package_name": "project.hansungcomputerdepartment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjrG-VzPwsygcosq8W1BntixHYfJYPWZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

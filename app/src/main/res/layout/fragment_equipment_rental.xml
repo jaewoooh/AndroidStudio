@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:focusableInTouchMode="true"
+    android:clickable="true">
+
+    <!-- 선택된 날짜 표시 텍스트뷰 -->
+    <TextView
+        android:id="@+id/selectedDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="선택된 날짜: "
+        android:textSize="16sp" />
+
+    <!-- 날짜 선택 버튼 -->
+    <Button
+        android:id="@+id/selectDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날짜 선택"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 기자재 선택 스피너 -->
+    <Spinner
+        android:id="@+id/equipmentSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 남은 수량 표시 텍스트뷰 -->
+    <TextView
+        android:id="@+id/quantityTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="남은 수량: "
+        android:textSize="16sp" />
+
+    <!-- 가로 스크롤 가능한 시간 선택 라디오 그룹 -->
+    <TextView
+        android:id="@+id/pickupDateLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="픽업 날짜"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <RadioGroup
+            android:id="@+id/timeRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- 시간 라디오 버튼들 -->
+            <RadioButton
+                android:id="@+id/time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22:00"
+                style="@style/TimeRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/time15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23:00"
+                style="@style/TimeRadioButton"/>
+        </RadioGroup>
+    </HorizontalScrollView>
+
+    <!-- 이름 입력 -->
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 트랙 입력 -->
+    <EditText
+        android:id="@+id/trackEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="트랙"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 전화번호 입력 -->
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="전화번호"
+        android:inputType="phone"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 예약 버튼 -->
+    <Button
+        android:id="@+id/reserveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="예약하기"/>
+</LinearLayout>
